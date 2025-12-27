@@ -1,6 +1,6 @@
 name: "🎓 Bootcamp Participation Request"
 description: "Request to join the JustAskDavidB Bootcamp"
-title: "[Bootcamp] <Your First Name> - <Field of Study>"
+title: "[Bootcamp] <Theotis> - <Cybersecurity>"
 labels: ["bootcamp-request"]
 body:
   - type: markdown
@@ -21,14 +21,14 @@ body:
     attributes:
       label: "First Name"
       description: "Please enter your first name"
-      placeholder: "John"
+      placeholder: "Theotis"
     validations:
       required: true
 
   - type: input
     id: last-initial
     attributes:
-      label: "First Letter of Last Name"
+      label: "M"
       description: "Please enter the first letter of your last name"
       placeholder: "D"
     validations:
@@ -39,7 +39,7 @@ body:
     attributes:
       label: "LinkedIn Profile URL"
       description: "Please provide your LinkedIn profile URL"
-      placeholder: "https://www.linkedin.com/in/your-profile"
+      placeholder: "https://www.linkedin.com/in/theo-matthews"
     validations:
       required: true
 
@@ -51,7 +51,7 @@ body:
     id: field-of-study
     attributes:
       label: "Field of Study of Interest"
-      description: "Select your field of study or area of interest"
+      description: "cybersecurity"
       options:
         - Computer Science
         - Information Technology
@@ -72,7 +72,7 @@ body:
     id: education-level
     attributes:
       label: "Current Education Level"
-      description: "Select your current education level"
+      description: "associates degree(completed)"
       options:
         - High School Student
         - High School Graduate
@@ -96,7 +96,7 @@ body:
     id: session-type
     attributes:
       label: "Preferred Session Type"
-      description: "Select your preferred bootcamp session format"
+      description: "virtual"
       options:
         - Virtual (Online)
         - On-Site (In-Person)
@@ -108,7 +108,7 @@ body:
     id: start-month
     attributes:
       label: "Desired Bootcamp Start Month"
-      description: "Select your preferred month to start the bootcamp"
+      description: "january"
       options:
         - January
         - February
@@ -135,9 +135,9 @@ body:
       label: "Learning Objectives"
       description: "Please describe your learning objectives and what you hope to achieve from the bootcamp"
       placeholder: |
-        - What skills do you want to develop?
-        - What are your career goals?
-        - What specific topics are you most interested in learning?
+        - What skills do you want to develop?triaging alerts, pentesting, ethical hacking
+        - What are your career goals?transition
+        - What specific topics are you most interested in learning?ethical hacking, digital forensics
     validations:
       required: true
 
@@ -145,7 +145,7 @@ body:
     id: job-type
     attributes:
       label: "Desired Job Type Within 1 Year"
-      description: "Select the type of job role you hope to achieve within 1 year of completing the bootcamp"
+      description: "Cybersecurity Analyst"
       options:
         - Junior Software Developer
         - Software Engineer
